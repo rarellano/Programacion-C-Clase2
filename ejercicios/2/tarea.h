@@ -28,7 +28,8 @@ bool tarea_attr_is_set(const struct tarea *t, uint16_t attr);
 
 void tarea_attr_unset(struct tarea *t, uint16_t attr);
 
-void tarea_set_data(struct tarea *t, uint16_t attr, const void *data,uint32_t data_len);
+void tarea_set_data(struct tarea *t, uint16_t attr, const void *data,
+		    uint32_t data_len);
 
 void tarea_attr_set_u32(struct tarea *t, uint16_t attr, uint32_t data);
 
